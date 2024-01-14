@@ -9,6 +9,3 @@ contact_links:
   - name: Klipper Chat
     url: https://discord.klipper3d.org/
     about: Klipper community Discord chat server.
-  - name: run gpt-translate
-    url: https://community.klipper3d.org/
-    about: translates using GPT models
