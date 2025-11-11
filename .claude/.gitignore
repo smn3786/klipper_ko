@@ -1,0 +1,15 @@
+# Claude Code gitignore
+# This file specifies which Claude-specific files should not be committed
+
+# Ignore user-specific settings if any
+*.local
+
+# Ignore temporary files
+*.tmp
+*.swp
+*~
+
+# Keep this structure
+!.gitignore
+!README.md
+!commands/
