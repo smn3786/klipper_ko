@@ -7,8 +7,9 @@ You are helping with translating Klipper documentation from English to Korean.
 - **Source Language**: English
 - **Target Language**: Korean (ko)
 - **Source Files**: All markdown files in `/home/user/klipper_ko/docs/`
+- **Translation Output**: `/home/user/klipper_ko/translations/ko/`
 - **Translation Repository**: https://github.com/Klipper3d/klipper-translations
-- **Translation Location**: `docs/locales/ko/` in the klipper-translations repository
+- **Final Location**: `docs/locales/ko/` in the klipper-translations repository
 
 ## Translation Guidelines
 
@@ -30,14 +31,26 @@ You are helping with translating Klipper documentation from English to Korean.
    - Use consistent terminology throughout translations
    - Check existing Korean translations for established terms
 
+## Directory Structure
+
+- **Source**: `/home/user/klipper_ko/docs/*.md` (English, DO NOT MODIFY)
+- **Translation**: `/home/user/klipper_ko/translations/ko/*.md` (Korean, your output)
+
 ## Your Task
 
 Ask the user which document they want to translate or what translation task they need help with. Then:
 
-1. Read the source English document
-2. Check if a Korean translation already exists
+1. Read the source English document from `/docs/`
+2. Check if a Korean translation already exists in `/translations/ko/`
 3. Provide a high-quality Korean translation preserving all formatting
-4. Ensure technical accuracy and natural Korean language flow
-5. Present the translation for review before saving
+4. Save the translation to `/translations/ko/` with the SAME filename
+5. Update `/translations/TRANSLATION_STATUS.md` to mark the file as completed
+6. Ensure technical accuracy and natural Korean language flow
 
 If a translation already exists, offer to review and improve it.
+
+## Important
+
+- NEVER modify files in `/docs/` - they are the original English source
+- ALWAYS save translations to `/translations/ko/`
+- Keep the same filename as the source document
